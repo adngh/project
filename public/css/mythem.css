@@ -1,0 +1,205 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Century Gothic", Helvetica, Arial, Tahoma;
+}
+
+a {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #333;
+}
+
+#header {
+  background-color: green;
+  color: aliceblue;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 20px
+}
+
+#header ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+#header ul li {
+  float: left;
+  margin: 0 5px
+}
+
+#header ul li a {
+  display: block;
+  padding: 10px;
+  background-color: limegreen;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+#header ul li a.active {
+  background-color: #FFF;
+  color: cornflowerblue;
+}
+#header ul li a:hover:not(.active) {
+  background-color: #9ad5eb;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#content {
+  padding: 20px;
+}
+
+#content h2 {
+  margin: 0 0 10px;
+  padding: 5px;
+  border-bottom: 1px solid #9aebb7;
+  color: #9aebb7;
+}
+
+.post {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ebe09a;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  border-bottom: 1px solid #eb9ace !important;
+  color: green !important;
+}
+
+.post ul.post-control {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post ul.post-control li {
+  float: left;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.post ul.post-control li:not(:last-child) {
+  border-right: 1px solid #afd8ef;
+}
+
+.post ul.post-control li a {
+  color: #9aa6eb;
+}
+.post ul.post-control li a:hover {
+  color: #9aebe0;
+}
+
+.post .post-info {
+  font-size: 70%;
+  color: #bfc3c6;
+}
+
+.control-group {
+  margin-bottom: 10px;
+}
+
+.control-group label,
+.control-group input,
+.control-group textarea {
+  float: left;
+}
+.control-group label {
+  width: 30%;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.control-group input,
+.control-group textarea {
+  width: 60%;
+  border: 1px solid #9aceeb;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 85%;
+}
+.control-group input {
+  height: 20px;
+}
+.control-group textarea {
+  height: 30px;
+}
+
+.checkbox-group {
+  padding-left: 10px;
+}
+.checkbox-group label,
+.checkbox-group input[type=checkbox] {
+  float: left;
+}
+
+.checkbox-group input[type=checkbox] {
+  margin-left: 30%;
+}
+
+.checkbox-group label {
+  padding-left: 10px;
+}
+
+.submit-group {
+  padding-left: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  
+}
+
+.submit-group input[type=submit] {
+  line-height: 30px;
+  border: 1px solid green;
+  background-color: greenyellow;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+}
+
+
+
+#footer {
+  text-align: center;
+  color: #fcfefe;
+}
+
+#footer p {
+  padding: 10px;
+  background-color: #b6c6cf;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
